@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<!-- Copyright(C) 2015 Interactive Health Solutions, Pvt. Ltd.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of the License (GPLv3), or any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Interactive Health Solutions, info@ihsinformatics.com
+You can also access the license on the internet at the address: http://www.gnu.org/licenses/gpl-3.0.html
+
+Interactive Health Solutions, hereby disclaims all copyright interest in this program written by the contributors. -->
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 12, 2012 4:08:49 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.irdresearch.tbr3web.shared.model.Person" table="person" catalog="openmrs_rpt">
+        <id name="pid" type="string">
+            <column name="pid" length="36" />
+            <generator class="assigned" />
+        </id>
+        <property name="title" type="string">
+            <column name="title" length="5" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="first_name" length="50" not-null="true" />
+        </property>
+        <property name="middleName" type="string">
+            <column name="middle_name" length="50" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="last_name" length="50" />
+        </property>
+        <property name="surname" type="string">
+            <column name="surname" length="50" />
+        </property>
+        <property name="fatherName" type="string">
+            <column name="father_name" length="50" />
+        </property>
+        <property name="motherName" type="string">
+            <column name="mother_name" length="50" />
+        </property>
+        <property name="guardianName" type="string">
+            <column name="guardian_name" length="50" />
+        </property>
+        <property name="gender" type="java.lang.Character">
+            <column name="gender" length="1" />
+        </property>
+        <property name="dob" type="date">
+            <column name="dob" length="10" />
+        </property>
+        <property name="approximateAge" type="java.lang.Byte">
+            <column name="approximate_age" />
+        </property>
+        <property name="maritalStatus" type="java.lang.Character">
+            <column name="marital_status" length="1" />
+        </property>
+        <property name="religion" type="string">
+            <column name="religion" length="50" />
+        </property>
+        <property name="caste" type="string">
+            <column name="caste" length="50" />
+        </property>
+        <property name="nationalId" type="string">
+            <column name="national_id" length="20" />
+        </property>
+        <property name="idOwner" type="string">
+            <column name="id_owner" length="50" />
+        </property>
+        <property name="alive" type="java.lang.Boolean">
+            <column name="alive" />
+        </property>
+        <property name="picture" type="binary">
+            <column name="picture" />
+        </property>
+        <property name="address1" type="string">
+            <column name="address1" length="20" />
+        </property>
+        <property name="address2" type="string">
+            <column name="address2" length="20" />
+        </property>
+        <property name="address3" type="string">
+            <column name="address3" length="20" />
+        </property>
+        <property name="address4" type="string">
+            <column name="address4" length="20" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="5" />
+        </property>
+        <property name="state" type="string">
+            <column name="state" length="5" />
+        </property>
+        <property name="country" type="string">
+            <column name="country" length="5" />
+        </property>
+        <property name="region" type="string">
+            <column name="region" length="5" />
+        </property>
+        <property name="latitude" type="java.lang.Float">
+            <column name="latitude" precision="12" scale="0" />
+        </property>
+        <property name="longitude" type="java.lang.Float">
+            <column name="longitude" precision="12" scale="0" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" length="20" />
+        </property>
+        <property name="mobile" type="string">
+            <column name="mobile" length="20" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" />
+        </property>
+        <property name="fax" type="string">
+            <column name="fax" length="20" />
+        </property>
+        <property name="alternateAddress1" type="string">
+            <column name="alternate_address1" length="20" />
+        </property>
+        <property name="alternateAddress2" type="string">
+            <column name="alternate_address2" length="20" />
+        </property>
+        <property name="alternateAddress3" type="string">
+            <column name="alternate_address3" length="20" />
+        </property>
+        <property name="alternateAddress4" type="string">
+            <column name="alternate_address4" length="20" />
+        </property>
+        <property name="alternateCity" type="string">
+            <column name="alternate_city" length="5" />
+        </property>
+        <property name="alternateState" type="string">
+            <column name="alternate_state" length="5" />
+        </property>
+        <property name="alternateCountry" type="string">
+            <column name="alternate_country" length="5" />
+        </property>
+        <property name="alternateRegion" type="string">
+            <column name="alternate_region" length="5" />
+        </property>
+        <property name="alternatePhone" type="string">
+            <column name="alternate_phone" length="20" />
+        </property>
+        <property name="alternateMobile" type="string">
+            <column name="alternate_mobile" length="20" />
+        </property>
+        <property name="alternateEmail" type="string">
+            <column name="alternate_email" />
+        </property>
+        <property name="alternateFax" type="string">
+            <column name="alternate_fax" length="20" />
+        </property>
+        <property name="alternateLatitude" type="java.lang.Float">
+            <column name="alternate_latitude" precision="12" scale="0" />
+        </property>
+        <property name="alternateLongitude" type="java.lang.Float">
+            <column name="alternate_longitude" precision="12" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

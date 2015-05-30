@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="submit_forms">There are some forms waiting for submission. Please check the forms you want to submit.</string>
+    <string name="location">Site</string>
+    <string name="location_hint">Enter 6 digit ID</string>
+    <string name="screening">Lung Health Screen</string>
+    <string name="paediatric_screening">Child Screen</string>
+    <string name="non_pulmonary_suspect">Non-Pulmonary Suspect</string>
+    <string name="customer_info">Client Information</string>
+    <string name="test_indication">Test Indication</string>
+    <string name="feedback">Feedback</string>
+    <string name="dot_dot_dot">...</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="close_form">Close this form?</string>
+    <string name="confirm_close">Are you sure you want to close this form? All unsaved changes will be lost.</string>
+    <string name="access_granted">Access granted, you have successfully logged in.</string>
+    <string name="confirm_operation">This operation is irreversable. Are you sure you want to proceed?</string>
+    <string name="connection_successful">Connected to the server successfully.</string>
+    <string name="deleted">Data deleted successfully.</string>
+    <string name="inserted">"Data inserted successfully."</string>
+    <string name="operation_successful">Request has been processed by the server successfully.</string>
+    <string name="patients_not_found">No Patients were found matching given parameters</string>
+    <string name="session_renewed">Session has been renewed.</string>
+    <string name="updated">Data updated successfully.</string>
+
+</resources>

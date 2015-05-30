@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="access_granted">آپ ٹی بی ریچ کے سافٹ وئیر میں داخل ہو گئے ہیں</string>
+    <string name="close_form">اس فارم کو بند کر دیں؟</string>
+    <string name="confirm_close">کیا آپ واقعی اس فارم کو بند کرنا چاہتے ہیں؟ بند کرنے کی صورت میں درج کی گئی معلومات خارج ہو جائے گی۔</string>
+    <string name="confirm_operation">یہ کاروائی روکی نہیں جا سکتی۔ کیا آپ واقعی جاری رکھنا چاہتے ہیں؟</string>
+    <string name="connection_successful">سرور سے رابطہ تشکیل دے دیا گیا ہے</string>
+    <string name="exit_application">پروگرام بند کریں</string>
+    <string name="exit_operation">کیا آپ پروگرام سے باہر آنا چاہتے ہیں یا لاگ آوٹ کرانا چاہتے ہیں؟</string>
+    <string name="deleted">معلومات خارج کر دی گئی ہے</string>
+    <string name="inserted">معلومات محفوظ کر دی گئی ہے</string>
+    <string name="operation_successful">آپکی درخواست سرور پر موصول ہو گئی ہے</string>
+    <string name="patients_not_found">فراہم کردہ معلومات کے مطابق کوئی مریض ڈیٹا میں موجود نہیں</string>
+    <string name="session_renewed">سرور سے آپکا رابطہ بحال کر دیا گیا ہے</string>
+    <string name="update_metadata">یہ کاروائی بنیادی معلعمات اپ ڈیٹ کرے گی اور اس میں کافی وقت لگ سکتا ہے۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
+    <string name="updated">معلومات محفوظ کر دی گئی ہے</string>
+
+</resources>

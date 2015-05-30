@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="demographics_option">Demographics</string>
+    <string name="tb_symptoms_option">TB Symptoms</string>
+    <string name="other_symptoms_option">Other Disease/Symptoms</string>
+
+    <!-- Demographics strings -->
+    <string name="first_name">First Name</string>
+    <string name="first_name_hint">Enter First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="last_name_hint">Enter Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="age_hint">Enter age</string>
+    <string name="dob">Date of Birth (auto-calculated from age)</string>
+    <string name="height">Height (cm)</string>
+    <string name="height_hint">Enter between 30 to 250 cm</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="weight_hint">Enter between 1 to 250 kg</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_low">BMI is too low. Make sure that the height and weight are entered correctly</string>
+
+    <!-- Symptoms strings -->
+    <string name="cough">Do you currently have a cough?</string>
+    <string name="cough_duration">How long have you been coughing?</string>
+    <string name="cough_duration_modifier">Cough Duration Modifier</string>
+    <string name="cough_duration_hint">Enter between 1 and 99</string>
+    <string name="symptoms">Patient\'s current Symptoms</string>
+    <string name="fever_symptom">Fever</string>
+    <string name="haemoptysis_symptom">Coughing up Blood</string>
+    <string name="night_sweats_symptom">Night Sweats</string>
+    <string name="weight_loss_symptom">Unexplained Weight Loss</string>
+    <string name="fatigue_symptom">Tiredness/Fatigue</string>
+    <string name="appetite_loss_symptom">Loss of Appetite</string>
+    <string name="child_cough">Does your child have a cough?</string>
+    <string name="child_cough_duration">What is the duration of cough?</string>
+    <string name="child_fever">Does your child have a fever?</string>
+    <string name="child_fever_duration">What is the duration of fever?</string>
+    <string name="child_fever_duration_hint">Enter between 1 and 99</string>
+    <string name="respiratory_rate">Respiratory rate (breaths per minute)</string>
+    <string name="respiratory_rate_hint">Enter between 10 and 120</string>
+
+    <!-- Othe Disease History strings -->
+    <string name="diabetes">Has a doctor ever told you that you have diabetes (sugar)?</string>
+    <string name="family_diabetes">Do any of your parents, siblings or children have diabetes (sugar)?</string>
+    <string name="family_tb">Does anyone in the home have TB or had TB in the past?</string>
+    <string name="hypertension">Have you ever taken medication for high blood pressure on a regular basis?</string>
+    <string name="breathing_shortness">Do you have shortness of breath while resting?</string>
+    <string name="active_breathing_shortness">Do you have shortness of breath while doing phsyical activity?</string>
+    <string name="wheezing">Do you experience Wheezing?</string>
+    <string name="tobacco_current">Do you currently smoke tobacco on a daily basis, less than daily or not at all?</string>
+    <string name="tobacco_past">In the past, have you smoked tobacco on a daily basis, less than daily or not at all?</string>
+
+    <!-- Conclusion -->
+    <string name="suspect_type">Suspect Type</string>
+    <string name="pulmonary">Pulmonary</string>
+    <string name="non_pulmonary">Non Pulmonary</string>
+    <string name="contact_referral">Does this person has a Referral Voucher?</string>
+    <string name="voucher_type">Type of Voucher</string>
+    <string name="contact_referral_id">Contact Patient ID</string>
+    <string name="conclusion">Conclusion</string>
+    <string name="pneumonia_conclusion">Presumptive Pneumonia Patient</string>
+    <string name="tb_conclusion">Presumptive TB Patient</string>
+    <string name="cxr_rif_indication">CXR and MTB/RIF</string>
+    <string name="blood_sugar_indication">Blood Sugar</string>
+    <string name="cxr_spirometry_indication">CXR and Spirometry</string>
+
+    <!-- String arrays -->
+    <string-array name="cough_duration_options">
+        <item>Less than 2 weeks</item>
+        <item>2-3 weeks</item>
+        <item>More than 3 weeks</item>
+        <item>Unknown</item>
+        <item>Refused</item>
+    </string-array>
+    <string-array name="child_cough_durations">
+        <item>Less than 1 Week</item>
+        <item>1 Week</item>
+        <item>More than 1 Week</item>
+        <item>Unknown</item>
+        <item>Refused</item>
+    </string-array>
+    <string-array name="child_fever_durations">
+        <item>Less than 1 Week</item>
+        <item>1 Week</item>
+        <item>More than 1 Week</item>
+        <item>Unknown</item>
+        <item>Refused</item>
+    </string-array>
+    <string-array name="tobacco_durations">
+        <item>Not at all</item>
+        <item>Less than Daily</item>
+        <item>Daily</item>
+        <item>Unknown</item>
+        <item>Refused</item>
+    </string-array>
+    <string-array name="voucher_type_options">
+        <item>Contact</item>
+        
+    </string-array>
+
+</resources>

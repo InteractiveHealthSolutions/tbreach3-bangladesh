@@ -1,0 +1,2 @@
+serviceClass: org.irdresearch.tbr3web.client.ServerService
+path: 9335E3595811203190A00F9E0B20EAE1.gwt.rpc

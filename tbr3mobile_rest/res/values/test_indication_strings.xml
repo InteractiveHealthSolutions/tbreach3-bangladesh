@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="test_indication_check">Check all tests that apply</string>
+    <string name="cxr">Chest X-Ray</string>
+    <string name="oxr">X-Ray (not Chest)</string>
+    <string name="gxp">Xpert MTB/RIF</string>
+    <string name="smear_microscopy">Smear Microscopy</string>
+    <string name="mantoux">Mantoux (TB Skin test)</string>
+    <string name="blood_glucose">Blood Sugar</string>
+    <string name="hba1c">HbA1c</string>
+    <string name="spirometry">Spirometry</string>
+    <string name="oximetry">Oximetry</string>
+
+</resources>

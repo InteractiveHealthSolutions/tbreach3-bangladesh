@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="primary_phone">Phone 1</string>
+    <string name="primary_phone_hint">Enter Phone Number</string>
+    <string name="self_owned">Self Owned</string>
+    <string name="specify_owner">Specify Owner</string>
+    <string name="secondary_phone">Phone 2</string>
+    <string name="secondary_phone_hint">Enter Secondary Phone Number</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="owner_name_hint">Enter Owner\'s Name</string>
+    <string name="address">Address</string>
+    <string name="address1">Address 1</string>
+    <string name="address1_hint">Enter Address Line 1</string>
+    <string name="address2">Address 2</string>
+    <string name="address2_hint">Enter Address Line 2</string>
+    <string name="landmark">Landmark</string>
+    <string name="landmark_hint">Enter Landmark</string>
+    <string name="town">City/Town</string>
+    <string name="town_hint">Enter Town/City</string>
+</resources>

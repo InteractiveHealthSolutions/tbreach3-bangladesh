@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="demographics_option">Demografi</string>
+    <string name="tb_symptoms_option">Gejala TB</string>
+    <string name="other_symptoms_option">Penyakit/Gejala Lain</string>
+    <!-- Demographics strings -->
+    <string name="first_name_hint">Masukkan Nama Depan</string>
+    <string name="last_name_hint">Masukkan Nama Belakang</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="male">Laki-laki</string>
+    <string name="female">Perempuan</string>
+    <string name="first_name">Nama Depan</string>
+    <string name="last_name">Nama Belakang</string>
+    <string name="age">Umur</string>
+    <string name="age_hint">Masukkan Usia</string>
+    <string name="height">Tinggi badan (cm)</string>
+    <string name="height_hint">Masukkan antara 10 sampai 400 cm</string>
+    <string name="weight">Berat badan (kg)</string>
+    <string name="weight_hint">Masukkan antara 0.5 sampai 200 kg</string>
+    <!-- Symptoms strings -->
+    <string name="cough">Apakah anda batuk?</string>
+    <string name="cough_duration">Sudah berapa minggu anda batuk?</string>
+    <!-- Othe Disease History strings -->
+    <string name="diabetes">Pernahkah anda dinyatakan sakit diabetes (gula) oleh dokter?</string>
+    <string name="family_diabetes">Apakah ada anggota keluarga anda (orang tua, saudara kandung, atau anak) yang sakit diabetes?</string>
+    <string name="family_tb">Apakah ada orang yang tinggal serumah dengan anda yang pernah sakit TB?</string>
+    <string name="hypertension">Apakah anda pernah minum obat untuk darah tinggi (hipertensi) secara teratur?</string>
+    <string name="breathing_shortness">Selama satu minggu yang lalu, seberapa seringkah anda mengalami sesak napas saat sedang beristirahat?</string>
+    <string name="active_breathing_shortness">Selama satu minggu yang lalu, seberapa seringkah anda mengalami sesak napas saat sedang melakukan aktivitas fisik?</string>
+    <string name="getting_cold">Selama satu minggu yang lalu, seberapa seringkah anda merasa khawatir terkena pilek atau masalah pernapasan anda akan memburuk?</string>
+    <string name="breathing_problem">Selama satu minggu yang lalu, seberapa seringkah anda merasa depresi (sedih) karena masalah pernapasan anda?</string>
+    <string name="wheezing">Apakah anda pernah mengalami mengi?</string>
+    <string name="tobacco_current">Apakah anda saat ini perokok?</string>
+    <string name="hiv">Pernahkah anda didiagnosis HIV oleh dokter?</string>
+    <!-- Conclusion -->
+    <string name="contact_referral">Apakah individu ini membawa voucher rujukan kontak?</string>
+    <string name="contact_referral_id">Masukkan ID kontak</string>
+    <string name="conclusion">Kesimpulan TB</string>
+    <string name="tb_conclusion">Suspek Paru?</string>
+    <!-- String arrays -->
+    <string-array name="cough_duration_options">
+        <item>Kurang dari 2 minggu</item>
+        <item>2-3 minggu</item>
+        <item>Lebih dari 3 minggu</item>
+        <item>Tidak tahu</item>
+        <item>Menolak untuk menjawab</item>
+    </string-array>
+
+</resources>

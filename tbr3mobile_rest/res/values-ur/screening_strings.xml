@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="demographics_option">شخصی معلومات</string>
+    <string name="tb_symptoms_option">تپ دق کی علامات</string>
+    <string name="other_symptoms_option">دیگر بیماریاں یا علامات</string>
+    
+    <!-- Demographics strings -->
+    <string name="first_name">پہلا نام</string>
+    <string name="first_name_hint">پہلا نام داخل کریں</string>
+    <string name="last_name">خاندانی نام</string>
+    <string name="last_name_hint">خاندانی یا نسبی نام داخل کریں</string>
+    <string name="gender">جنس</string>
+    <string name="male">مرد</string>
+    <string name="female">عورت</string>
+    <string name="age">عمر</string>
+    <string name="age_hint">اپنی عمر داخل کریں</string>
+    <string name="dob">تاریخ پیدائش</string>
+    <string name="height">قد</string>
+    <string name="height_hint">اپنا قد لکھیں(۱۰ تا ۴۰۰ سینٹی میٹر)۔</string>
+    <string name="weight">وزن</string>
+    <string name="weight_hint">اپنا وزن لکھیں (۱ تا ۲۰۰ کلو گرام)۔</string>
+    <string name="bmi">بی ایم آئی</string>
+    <string name="bmi_low">بی ایم آئی انتہائی کم ہے۔ کیا آپ نے قد اور وزن درست لکھا ہے؟</string>
+    
+    <!-- Symptoms strings -->
+    <string name="cough">کیا آپ کو کھانسی ہے؟</string>
+    <string name="cough_duration">آپ کو کب سے کھانسی ہے؟</string>
+    <string name="cough_duration_modifier">دورانیہ</string>
+    <string name="cough_duration_hint">ایک تا ۹۹ تک دورانیہ داخل کریں</string>
+    <string name="symptoms">بیماری کی علامات</string>
+    <string name="fever_symptom">بخار</string>
+    <string name="haemoptysis_symptom">کھانسی میں خون آنا</string>
+    <string name="night_sweats_symptom">سوتے ہوئے پسینہ آنا</string>
+    <string name="weight_loss_symptom">نامعلوم وجہ سے وزن میں کمی</string>
+    <string name="fatigue_symptom">تھکن</string>
+    <string name="appetite_loss_symptom">بھوک کی کمی</string>
+    <string name="child_cough">کیا آپ کے بچے کو کھانسی ہے؟</string>
+    <string name="child_cough_duration">کھانسی کا دورانیہ کیا ہے؟</string>
+    <string name="child_fever">کیا آپ کے بچے کو بخار ہے؟</string>
+    <string name="child_fever_duration">بخار کا دورانیہ کیا ہے؟</string>
+    <string name="child_fever_duration_hint">ایک تا ۹۹ تک دورانیہ داخل کریں</string>
+    <string name="respiratory_rate">سانس کی رفتار فی منٹ</string>
+    <string name="respiratory_rate_hint">دس تا ۱۲۰ تک رفتار لکھیں</string>
+    
+    <!-- Othe Disease History strings -->
+    <string name="diabetes">کیا کبھی کسی ڈاکٹر نے آپکو کہا ہے کہ آپ کو زیابیطس کا مرض ہے؟</string>
+    <string name="family_diabetes">کیا آپ کے والدین، بہن، بھائی یا دیگر اہل خانہ میں سے کسی کو ذیابیطس کا مرض ہے؟</string>
+    <string name="family_tb">کیا آپ کے والدین، بہن، بھائی یا دیگر اہل خانہ میں سے کسی کو ٹی بی کا مرض ہے؟</string>
+    <string name="hypertension">کیا آپ نے کبھی بلند فشار خون کی ادویات لی ہیں؟</string>
+    <string name="breathing_shortness">گزشتہ ہفتہ کے دوران آپ کو کتنی مرتبہ سانس لینے میں دقت ہوئی ہے؟</string>
+    <string name="active_breathing_shortness">گزشتہ ہفتہ کے دوران آپ کو کتنی مرتبہ دورانِ مشقت سانس لینے میں دقت محسوس ہوئی ہے؟</string>
+    <string name="wheezing">کیا کبھی آپکے سانس لینے کے دوران گھرگھراہٹ یا سیٹی جیسی آواز نکلی ہے؟</string>
+    <string name="tobacco_current">کیا آپ تمباکو نوشی کرتے ہیں؟</string>
+    <string name="tobacco_past">کیا آپ ماضی میں تمباکو نوشی کیا کرتے تھے؟</string>
+    
+    <!-- Conclusion -->
+    <string name="suspect_type">ممکنہ مریض</string>
+    <string name="pulmonary">پھیپھڑے کی بیمانی</string>
+    <string name="non_pulmonary">پھیپھڑے کے علاوہ</string>
+    <string name="contact_referral">کیا ریفرل کا واؤچر موجود ہے؟</string>
+    <string name="voucher_type">واؤچر کی قسم</string>
+    <string name="contact_referral_id">متعلقہ مریض کی آئی ڈی</string>
+    <string name="conclusion">نتیجہ</string>
+    <string name="pneumonia_conclusion">نمونیہ کا ممکنہ مریض</string>
+    <string name="tb_conclusion">ٹی بی کا ممکنہ مریض</string>
+    <string name="cxr_rif_indication">سینے کا ایکس رے اور جین ایکسپرٹ </string>
+    <string name="blood_sugar_indication">خون کا شوگر ٹیسٹ</string>
+    <string name="cxr_spirometry_indication">سینے کا ایکس رے اور سپائرومیٹری</string>
+    
+    <!-- String arrays -->
+    <string-array name="cough_duration_options">
+        <item>دو ہفتوں سے کم</item>
+        <item>دو سے تین ہفتے</item>
+        <item>تین ہفتوں سے زائد</item>
+        <item>معلوم نہیں</item>
+        <item>انکار</item>
+    </string-array>
+    <string-array name="child_cough_durations">
+        <item>ایک ہفتے سے کم</item>
+        <item>ایک ہفتہ</item>
+        <item>ایک ہفتے سے زائد</item>
+        <item>معلوم نہیں</item>
+        <item>انکار</item>
+    </string-array>
+    <string-array name="child_fever_durations">
+        <item>ایک ہفتے سے کم</item>
+        <item>ایک ہفتہ</item>
+        <item>ایک ہفتے سے زائد</item>
+        <item>معلوم نہیں</item>
+        <item>انکار</item>
+    </string-array>
+    <string-array name="tobacco_durations">
+        <item>بالکل نہیں</item>
+        <item>روزانہ سے کم</item>
+        <item>روزانہ</item>
+        <item>معلوم نہیں</item>
+        <item>انکار</item>
+    </string-array>
+    <string-array name="voucher_type_options">
+        <item>متعلقہ فرد</item>
+        <item>ینگ وومین انیشئیٹو</item>
+    </string-array>
+
+</resources>

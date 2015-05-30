@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="contact_provided">کیا آپ رابطہ کے لیے معلومات فراہم کرنا چاہتے ہیں؟</string>
+    <string name="primary_phone">رابطہ نمبر ۱</string>
+    <string name="primary_phone_hint">اپنا رابطہ نمبر داخل کریں</string>
+    <string name="self_owned">ذاتی</string>
+    <string name="specify_owner">نمبر کے صارف کا نام</string>
+    <string name="secondary_phone">رابطہ نمبر ۲</string>
+    <string name="secondary_phone_hint">اپنا متبادل رابطہ نمبر داخل کریں</string>
+    <string name="owner_name">اصل صارف کا نام</string>
+    <string name="owner_name_hint">صارف کا نام</string>
+    <string name="address">گھر کا پتہ</string>
+    <string name="address1">گھر کا پتہ</string>
+    <string name="address1_hint">اپنے گھر کا پتہ داخل کریں</string>
+    <string name="town">شہر/گاؤں</string>
+    <string name="town_hint">اپنے شہر یا گاؤں کا نام داخل کریں</string>
+
+</resources>

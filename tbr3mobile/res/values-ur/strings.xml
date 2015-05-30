@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading_message">..انتظار فرمائیں</string>
+    <string name="app_name">ٹی بی ریچ ۳</string>
+    <string name="menu_settings">ترتیب</string>
+    <string name="password_hint">اپنا خفیہ پاس ورڈ درج کریں</string>
+    <string name="login_name">صارف کا نام</string>
+    <string name="login_name_hint">صارف کا نام درج کریں</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="forgot_password">پاس وڑد یاد نہیں</string>
+    <string name="login">داخل ہوں</string>
+    <string name="logout">لاگ آوٹ</string>
+    <string name="yes">ہاں</string>
+    <string name="no">نہیں</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="clear">صاف کریں</string>
+    <string name="exit">باہر آئیں</string>
+    <string name="passcode">مختصر پاس ورڈ</string>
+    <string name="passcode_hint">اپنے خفیہ پاس ورڈ کے ابتدائی ۴ حروف درج کریں</string>
+    <string name="option_hint">کسی ایک کا انتخاب کریں</string>
+    <string name="multi_select_hint">ایک یا ایک سے زائد کا انتخاب کریں</string>
+    <string name="goto_first">اوّل</string>
+    <string name="goto_last">آخر</string>
+    <string name="form_date">فارم کی تاریخ</string>
+    <string name="patient_id">مریض کی آئی ڈی</string>
+    <string name="patient_id_hint">مریض کی ۱۴ اعداد پر مشتمل آئی ڈی درج کریں</string>
+    <string name="scan_barcode">بار کوڈ دیکھیں</string>
+    <string name="empty_string"></string>
+
+    <string-array name="gender">
+        <item>مرد</item>
+        <item>عورت</item>
+    </string-array>
+    <string-array name="options">
+        <item>نہیں</item>
+        <item>ہاں</item>
+        <item>انکار</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>کبھی نہیں</item>
+        <item>ایک آدھ مرتبہ</item>
+        <item>چند ایک مرتبہ</item>
+        <item>کاف مرتبہ</item>
+        <item>کثرت کے ساتھ</item>
+        <item>انتہائی کثرت کے ساتھ</item>
+        <item>تقریباً ہمیشہ</item>
+        <item>انکار</item>
+    </string-array>
+    <string-array name="feedback_types">
+        <item>شکایت</item>
+        <item>مشورہ</item>
+        <item>دیگر</item>
+    </string-array>
+
+    <string name="age_group">عمر</string>
+    <string name="search_patients">تلاش کریں۔۔۔</string>
+
+</resources>

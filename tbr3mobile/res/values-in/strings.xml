@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading_message">Tunggu..</string>
+    <string name="app_name">TB REACH 3 Mobile</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="password_hint">Masukkan kata sandi</string>
+    <string name="login_name">Pengguna</string>
+    <string name="login_name_hint">Masukkan nama pengguna</string>
+    <string name="password">Kata sandi</string>
+    <string name="forgot_password">Lupa kata sandi</string>
+    <string name="login">Login</string>
+    <string name="save">Simpan</string>
+    <string name="clear">Ganti</string>
+    <string name="passcode">Kata sandi singkat</string>
+    <string name="passcode_hint">Masukkan 4 karakter pertama dari kata sandi anda</string>
+    <string name="option_hint">Pilih opsi</string>
+    <string name="goto_first">&lt;&lt;</string>
+    <string name="goto_last">>></string>
+    <string name="form_date">Tanggal Formulir</string>
+    <string name="patient_id">ID Pasien</string>
+    <string name="patient_id_hint">Masukkan ID (hanya 14 angka)</string>
+    <string name="scan_barcode">Scan Barcode</string>
+
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="options">
+        <item>Tidak</item>
+        <item>Ya</item>
+        <item>Menolak untuk menjawab</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>Tidak pernah</item>
+        <item>Hampir tidak pernah</item>
+        <item>A few times</item>
+        <item>Several times</item>
+        <item>Many times</item>
+        <item>A Great many times</item>
+        <item>Almost all the time</item>
+        <item>Refuse</item>
+    </string-array>
+    <string-array name="feedback_types">
+        <item>Keluhan</item>
+        <item>Saran</item>
+        <item>Lain-lain</item>
+    </string-array>
+
+    <string name="age_group">Kelompok Usia</string>
+    <string name="search_patients">Cari..</string>
+
+</resources>

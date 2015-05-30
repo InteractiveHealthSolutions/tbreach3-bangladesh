@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- Copyright(C) 2015 Interactive Health Solutions, Pvt. Ltd.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of the License (GPLv3), or any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Interactive Health Solutions, info@ihsinformatics.com
+You can also access the license on the internet at the address: http://www.gnu.org/licenses/gpl-3.0.html
+
+Interactive Health Solutions, hereby disclaims all copyright interest in this program written by the contributors. -->
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 12, 2012 4:08:49 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class catalog="openmrs_rpt" name="org.irdresearch.tbr3web.shared.model.User"
+		table="user">
+		<id name="pid" type="string">
+			<column name="pid" length="12" />
+			<generator class="assigned" />
+		</id>
+		<property generated="never" lazy="false" name="userName"
+			type="string">
+			<column length="12" name="user_name" not-null="true" unique="true" />
+		</property>
+		<property generated="never" lazy="false" name="currentStatus"
+			type="char">
+			<column length="1" name="current_status" not-null="true" />
+		</property>
+		<property generated="never" lazy="false" name="password"
+			type="string">
+			<column name="password" not-null="true" />
+		</property>
+		<property generated="never" lazy="false" name="secretQuestion"
+			type="string">
+			<column name="secret_question" not-null="true" />
+		</property>
+		<property generated="never" lazy="false" name="secretAnswer"
+			type="string">
+			<column name="secret_answer" not-null="true" />
+		</property>
+		<property generated="never" lazy="false" name="loggedIn"
+			type="java.lang.Boolean">
+			<column name="logged_in" />
+		</property>
+	</class>
+</hibernate-mapping>

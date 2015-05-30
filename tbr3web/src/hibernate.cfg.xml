@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright(C) 2015 Interactive Health Solutions, Pvt. Ltd.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of the License (GPLv3), or any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Interactive Health Solutions, info@ihsinformatics.com
+You can also access the license on the internet at the address: http://www.gnu.org/licenses/gpl-3.0.html
+
+Interactive Health Solutions, hereby disclaims all copyright interest in this program written by the contributors. -->
+
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.username">tbreachuser</property>
+  <property name="hibernate.connection.password">tbreachuser</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/openmrs_rpt?zeroDateTimeBehavior=convertToNull</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.connection.pool_size">0</property>
+  <property name="hibernate.connection.autocommit">true</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+  <property name="hibernate.use_sql_comments">false</property>
+  <property name="hibernate.format_sql">false</property>
+  <property name="hibernate.transaction.auto_close_session">true</property>
+  
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Defaults.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Definition.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/DefinitionType.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Dictionary.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Encounter.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/EncounterElement.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/EncounterPrerequisite.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/EncounterResults.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/EncounterType.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/EncounterValue.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Feedback.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/LabTest.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Location.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/LogData.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/LogLogin.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Patient.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/Person.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/PersonRole.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/User.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/UserMapping.hbm.xml"/>
+  <mapping resource="org/irdresearch/tbr3web/shared/model/UserRights.hbm.xml"/>
+ </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loading_message">Loading..</string>
+    <string name="app_name">TB REACH 3 Mobile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_name">User Name</string>
+    <string name="login_name_hint">Enter your user name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="passcode">Short Password</string>
+    <string name="passcode_hint">Enter first 4 characters of your password</string>
+    <string name="option_hint">Select an option</string>
+    <string name="goto_first">&lt;&lt;</string>
+    <string name="goto_last">>></string>
+    <string name="form_date">Form Date</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="patient_id_hint">Enter ID (14 digits only)</string>
+    <string name="scan_barcode">Scan Barcode</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="options">
+        <item>No</item>
+        <item>Yes</item>
+        <item>Refuse</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>Never</item>
+        <item>Hardly ever</item>
+        <item>A few times</item>
+        <item>Several times</item>
+        <item>Many times</item>
+        <item>A Great many times</item>
+        <item>Almost all the time</item>
+        <item>Refuse</item>
+    </string-array>
+    <string-array name="feedback_types">
+        <item>Complain</item>
+        <item>Suggestion</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="age_group">Age Group</string>
+    <string name="search_patients">Search..</string>
+
+</resources>

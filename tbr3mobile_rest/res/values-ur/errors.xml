@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_title">غلطی/فنّی خرابی</string>
+    <string name="authentication_error">پاس ورڈ کی تصدیق نہیں ہو سکی! براۓ مہربانی صحیح پاس ورڈ یا کوڈ داخل کریں</string>
+    <string name="data_access_error">مطلوبہ معلومات تک رسائی نہیں ہو سکی</string>
+    <string name="data_connection_error">ڈیٹا سرور سے رابطہ قائم نہیں ہو سکا۔ سافٹ وئیر کی سیٹنگ دیکھئیے</string>
+    <string name="data_mismatch">ڈیٹا یا اعداد یکساں نہیں</string>
+    <string name="concept_not_found">آپکے ڈیٹابیس میں یہ معلومات محفوظ نہیں۔ برائے مہربانی اپنے ڈیٹابیس کو اپ ڈیٹ کریں</string>
+    <string name="delete_error">معلومات خارج نہیں ہو سکی۔ ممکن ہے کہ جو معلومات آپ خارج کرنا چاہتے ہیں وہ سافٹ وئیر کے لیے ضروری ہوں</string>
+    <string name="duplication">یہ معلومات پہلے ہی موصول ہو چکی ہیں۔ دوبارہ داخل نہیں کی جا سکتیں۔</string>
+    <string name="empty_data">مکمل ڈیٹا فراہم نہیں کیا گیا۔ برائے مہربانی ضروری معلومات داخل کریں</string>
+    <string name="empty_selection">کم از کم ایک آپشن کا انتخاب کریں</string>
+    <string name="form_unavailable">یہ فارم زیرِ استعمال نہیں ہے</string>
+    <string name="insert_error">ڈیٹا محفوظ نہیں کیا جا سکا۔ برائے مہربانی درج کردہ معلومات کی تصدیق کریں۔</string>
+    <string name="incomplete_operation">کاروائی مکمل نہیں ہو سکی۔ مریض کا اندراج ہو گیا ہے لیکن دیگر معلومات محفوظ نہیں ہو سکیں</string>
+    <string name="item_not_found">مطلوبہ معلومات کے مطابق کوئی ڈیٹا نہیں مل سکا</string>
+    <string name="invalid_data">غلط اندراج! برائے مہربانی درج کردہ معلومات کی تصدیق کریں</string>
+    <string name="invalid_date_or_time">وقت یا تاریخ درست نہیں۔ برائے مہربانی دوبارہ تصدیق کریں</string>
+    <string name="non_suspect">اس شخص کو تشخیص کے لیے منتخب نہیں کیا گیا۔ برائے مہربانی فارم کے اندراج کے لیے مریض کی آئی ڈی فراہم کریں</string>
+ 	<string name="operation_cancelled">کاروائی منسوخ کر دی گئی ہے</string>
+    <string name="out_of_range">درج کردہ اعداد ممکنہ حد سے باہر ہیں</string>
+    <string name="parameter_missing">پیرامیٹرز کا اندراج درست نہیں کیا گیا۔ فراہم کردہ معلومات کی دوبارہ تصدیق کیجئیے</string>
+    <string name="parsing_error">ڈیٹا درست نہیں۔ برائے مہربانی ڈیٹا صحیح طور پر اندراج کیجئیے</string>
+    <string name="patient_id_missing">فراہم کردہ آئی ڈی ڈیٹابیس میں موجود نہیں۔ برائے مہربانی صحیح آئی ڈی کا اندراج کیجئیے</string>
+    <string name="session_expired">آپ سافٹ وئیر سے باہر آ چکے ہیں۔ دوبارہ داخل ہونے کیلئے اپنا نام اور پاس ورڈ داخل کریں</string>
+    <string name="unknown_error">خرابی کی وجہ معلوم نہیں ہو سکی۔ برائے مہربانی سرور کا لاگ دیکھئیے</string>
+    <string name="update_error">ڈیٹا محفوظ نہیں کیا جا سکا۔ برائے مہربانی تصدیق کیجئے کے معلومات کا اندراج درست طور پر کیا گیا ہے</string>
+    <string name="user_not_found">اس نام کا صارف موجود نہیں۔ برائے مہربانی درست نام داخل کیجئیے</string>
+    <string name="user_role_undefined">اس فارم تک صارف کی رسائی ممکن نہیں۔ برائے مہربانی اپنے ایڈمنسٹریٹر سے رابطہ کریں</string>
+
+</resources>

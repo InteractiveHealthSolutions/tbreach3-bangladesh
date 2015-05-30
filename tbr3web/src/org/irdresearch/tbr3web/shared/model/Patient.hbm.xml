@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!-- Copyright(C) 2015 Interactive Health Solutions, Pvt. Ltd.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of the License (GPLv3), or any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Interactive Health Solutions, info@ihsinformatics.com
+You can also access the license on the internet at the address: http://www.gnu.org/licenses/gpl-3.0.html
+
+Interactive Health Solutions, hereby disclaims all copyright interest in this program written by the contributors. -->
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 12, 2012 4:08:49 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.irdresearch.tbr3web.shared.model.Patient" table="patient" catalog="openmrs_rpt">
+        <id name="pid" type="string">
+            <column name="pid" length="36" />
+            <generator class="assigned" />
+        </id>
+        <property name="patientId" type="string">
+            <column name="patient_id" length="36" not-null="true" />
+        </property>
+        <property name="mrNo" type="string">
+            <column name="mr_no" length="12" />
+        </property>
+        <property name="externalMrNo" type="string">
+            <column name="external_mr_no" length="12" />
+        </property>
+        <property name="dateScreened" type="date">
+            <column name="date_screened" length="10" />
+        </property>
+        <property name="suspectedBy" type="string">
+            <column name="suspected_by" length="12" />
+        </property>
+        <property name="diseaseSuspected" type="java.lang.Boolean">
+            <column name="disease_suspected" />
+        </property>
+        <property name="dateSuspected" type="date">
+            <column name="date_suspected" length="10" />
+        </property>
+        <property name="diseaseConfirmed" type="java.lang.Boolean">
+            <column name="disease_confirmed" />
+        </property>
+        <property name="dateConfirmed" type="date">
+            <column name="date_confirmed" length="10" />
+        </property>
+        <property name="confirmationSource" type="string">
+            <column name="confirmation_source" length="10" />
+        </property>
+        <property name="confirmationRemarks" type="string">
+            <column name="confirmation_remarks" length="10" />
+        </property>
+        <property name="gp" type="string">
+            <column name="gp" length="12" />
+        </property>
+        <property name="treatmentCentre" type="string">
+            <column name="treatment_centre" length="12" />
+        </property>
+        <property name="treatmentSupporter" type="string">
+            <column name="treatment_supporter" length="12" />
+        </property>
+        <property name="weight" type="java.lang.Float">
+            <column name="weight" precision="12" scale="0" />
+        </property>
+        <property name="height" type="java.lang.Float">
+            <column name="height" precision="12" scale="0" />
+        </property>
+        <property name="bloodGroup" type="string">
+            <column name="blood_group" length="5" />
+        </property>
+        <property name="diseaseType" type="string">
+            <column name="disease_type" length="5" />
+        </property>
+        <property name="diseaseCategory" type="string">
+            <column name="disease_category" length="5" />
+        </property>
+        <property name="diseaseSite" type="string">
+            <column name="disease_site" length="50" />
+        </property>
+        <property name="treatmentPhase" type="string">
+            <column name="treatment_phase" length="10" />
+        </property>
+        <property name="regimenType" type="string">
+            <column name="regimen_type" length="10" />
+        </property>
+        <property name="regimen" type="string">
+            <column name="regimen" length="10" />
+        </property>
+        <property name="EDose" type="java.lang.Float">
+            <column name="e_dose" precision="12" scale="0" />
+        </property>
+        <property name="HDose" type="java.lang.Float">
+            <column name="h_dose" precision="12" scale="0" />
+        </property>
+        <property name="RDose" type="java.lang.Float">
+            <column name="r_dose" precision="12" scale="0" />
+        </property>
+        <property name="SDose" type="java.lang.Float">
+            <column name="s_dose" precision="12" scale="0" />
+        </property>
+        <property name="ZDose" type="java.lang.Float">
+            <column name="z_dose" precision="12" scale="0" />
+        </property>
+        <property name="streptomycin" type="java.lang.Boolean">
+            <column name="streptomycin" />
+        </property>
+        <property name="dateBaseline" type="date">
+            <column name="date_baseline" length="10" />
+        </property>
+        <property name="patientType" type="string">
+            <column name="patient_type" length="10" />
+        </property>
+        <property name="patientStatus" type="string">
+            <column name="patient_status" length="10" />
+        </property>
+        <property name="dateClosed" type="date">
+            <column name="date_closed" length="10" />
+        </property>
+        <property name="treatmentOutcome" type="string">
+            <column name="treatment_outcome" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

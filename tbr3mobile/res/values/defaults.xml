@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trust_store_password">jingle94</string>
+    <string name="server_address">&quot;203.190.254.66:8443&quot;</string>
+<!--     <string name="alternate_server_address">"http://202.141.249.106:8932/tbr3web/mobileservice"</string> -->
+    
+    <string name="http_port">80</string>
+    <string name="https_port">443</string>
+    <string name="support_contact"></string>
+    <string name="default_user">Default</string>
+    <string name="default_password">Default123</string>
+    
+</resources>

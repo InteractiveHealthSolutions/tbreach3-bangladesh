@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="screening">Lung Health Screening</string>
+    <string name="paediatric_screening">Paediatric/Child Screening</string>
+    <string name="non_pulmonary_suspect">Non-Pulomnary Suspect</string>
+    <string name="customer_info">Customer Information</string>
+    <string name="test_indication">Test Indication</string>
+    <string name="feedback">Feedback</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="test_indication_check">متعلقہ آپشن منتخب کریں</string>
+    <string name="cxr">سینے کا ایکس رے</string>
+    <string name="oxr">سینے کے علاوہ ایکس رے</string>
+    <string name="gxp">جین ایکسپرٹ ٹیسٹ</string>
+    <string name="smear_microscopy">اسمئیر مائکروسکوپی</string>
+    <string name="mantoux">جلد کا مانٹو ٹیسٹ</string>
+    <string name="blood_glucose">گلوکوز ٹیسٹ</string>
+    <string name="hba1c">HbA1c</string>
+    <string name="spirometry">سپائرومیٹری</string>
+    <string name="oximetry">انفلویٔنزا</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!-- Copyright(C) 2015 Interactive Health Solutions, Pvt. Ltd.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3 of the License (GPLv3), or any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Interactive Health Solutions, info@ihsinformatics.com
+You can also access the license on the internet at the address: http://www.gnu.org/licenses/gpl-3.0.html
+
+Interactive Health Solutions, hereby disclaims all copyright interest in this program written by the contributors. -->
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 10, 2012 2:44:42 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.irdresearch.tbr3web.shared.model.Location" table="location" catalog="openmrs_rpt">
+        <id name="locationId" type="string">
+            <column name="location_id" length="12" />
+            <generator class="assigned" />
+        </id>
+        <property name="locationName" type="string">
+            <column name="location_name" not-null="true" />
+        </property>
+        <property name="locationType" type="string">
+            <column name="location_type" length="10" not-null="true" />
+        </property>
+        <property name="address1" type="string">
+            <column name="address1" length="50" />
+        </property>
+        <property name="address2" type="string">
+            <column name="address2" length="50" />
+        </property>
+        <property name="address3" type="string">
+            <column name="address3" length="50" />
+        </property>
+        <property name="address4" type="string">
+            <column name="address4" length="50" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="20" />
+        </property>
+        <property name="state" type="string">
+            <column name="state" length="20" />
+        </property>
+        <property name="country" type="string">
+            <column name="country" length="5" />
+        </property>
+        <property name="region" type="string">
+            <column name="region" length="5" />
+        </property>
+        <property name="latitude" type="java.lang.Float">
+            <column name="latitude" precision="12" scale="0" />
+        </property>
+        <property name="longitude" type="java.lang.Float">
+            <column name="longitude" precision="12" scale="0" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" length="20" />
+        </property>
+        <property name="mobile" type="string">
+            <column name="mobile" length="20" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" />
+        </property>
+        <property name="fax" type="string">
+            <column name="fax" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="demographics_option">Demographics</string>
+    <string name="tb_symptoms_option">TB Symptoms</string>
+    <string name="other_symptoms_option">Other Disease/Symptoms</string>
+    <!-- Demographics strings -->
+    <string name="first_name_hint">Enter First Name</string>
+    <string name="last_name_hint">Enter Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="age_hint">Enter age</string>
+    <string name="height">Height (cm)</string>
+    <string name="height_hint">Enter between 10 to 400 cm</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="weight_hint">Enter between 0.5 to 200 kg</string>
+    <!-- Symptoms strings -->
+    <string name="cough">Do you have a cough?</string>
+    <string name="cough_duration">How many weeks have you had cough for?</string>
+    <!-- Othe Disease History strings -->
+    <string name="diabetes">Has a doctor ever said you have diabetes (sugar)?</string>
+    <string name="family_diabetes">Do any of your parents, siblings or children have diabetes (sugar)?</string>
+    <string name="family_tb">Does anyone in the home have TB or had TB in the past?</string>
+    <string name="hypertension">Have you ever taken medication for high blood pressure on a regular basis?</string>
+    <string name="breathing_shortness">During the past week, how often do you have shortness of breathing while resting?</string>
+    <string name="active_breathing_shortness">How often do you have shortness of breath while doing phsyical activity?</string>
+    <string name="getting_cold">During the past week, how often are you concerned about getting a cold or your breathing getting worse?</string>
+    <string name="breathing_problem">How often are you depressed (down) because of your breathing problems?</string>
+    <string name="wheezing">Do you experience Wheezing?</string>
+    <string name="tobacco_current">Do you currently Smoke Tobacco?</string>
+    <string name="hiv">Has a doctor ever told you that you have HIV?</string>
+    <!-- Conclusion -->
+    <string name="contact_referral">Contact Voucher</string>
+    <string name="contact_referral_id">Contact Patient ID</string>
+    <string name="conclusion">TB Conclusion</string>
+    <string name="tb_conclusion">Presumptive TB Patient</string>
+    <!-- String arrays -->
+    <string-array name="cough_duration_options">
+        <item>Less than 2 weeks</item>
+        <item>2-3 weeks</item>
+        <item>More than 3 weeks</item>
+        <item>Unknown</item>
+        <item>Refused</item>
+    </string-array>
+
+</resources>

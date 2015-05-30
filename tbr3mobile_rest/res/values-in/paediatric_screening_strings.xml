@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dob">Date of Birth (auto-calculated from age)</string>
+    <string name="child_cough">Does your child have a cough?</string>
+    <string name="child_cough_duration">What is the duration of cough?</string>
+    <string name="cough_duration_hint">Enter between 1 and 99</string>
+    <string name="child_fever">Does your child have a fever?</string>
+    <string name="child_fever_duration">What is the duration of fever?</string>
+    <string name="child_fever_duration_hint">Enter between 1 and 99</string>
+    <string name="respiratory_rate">Respiratory rate (breaths per minute)</string>
+    <string name="respiratory_rate_hint">Enter between 10 and 120</string>
+    <string name="pneumonia_conclusion">Presumptive Pneumonia Patient</string>
+
+    <string-array name="age_modifiers">
+        <item>Years</item>
+        <item>Months</item>
+        <item>Weeks</item>
+    </string-array>
+    <string-array name="child_cough_durations">
+        <item>Less than 1 Week</item>
+        <item>1 Week</item>
+        <item>More than 1 Week</item>
+        <item>Unknown</item>
+        <item>Refused</item>
+    </string-array>
+    <string-array name="child_fever_durations">
+        <item>Less than 1 Week</item>
+        <item>1 Week</item>
+        <item>More than 1 Week</item>
+        <item>Unknown</item>
+        <item>Refused</item>
+    </string-array>
+
+</resources>

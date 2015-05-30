@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="screening">Skrining Paru</string>
+    <string name="paediatric_screening">Skrining Pasien Anak</string>
+    <string name="non_pulmonary_suspect">Suspek Non-Paru</string>
+    <string name="customer_info">Informasi Pasien</string>
+    <string name="test_indication">Indikasi Tes</string>
+    <string name="feedback">Masukan</string>
+
+</resources>
